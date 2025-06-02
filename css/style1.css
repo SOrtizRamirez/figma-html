@@ -1,0 +1,330 @@
+/* This have the same comments than the other style, but with other colors changing a little the design */
+body {
+    margin-right: 10%;
+    margin-left: 10%;
+    font-family: "Rubik Mono One", monospace;
+    font-style: normal;
+    color:rgb(255, 255, 255);
+    background: black;
+}
+
+html{
+    background: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 94%;
+    height: 7rem;
+    padding: 1.5rem 2rem;
+    background-image: url(/img/header.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; 
+    height: 200px;
+    border: 3px solid rgb(0, 200, 255); 
+    padding: 2rem;
+    margin: 2rem 0;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 225, 255, 0.827);
+}
+
+
+section {
+    background: rgb(0, 0, 0);
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 15%;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    margin-right: 10%;
+}
+
+.navbar a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 120%;
+}
+
+.login {
+    width: 130%;
+    height: 3rem;
+    border-radius: 15%;
+    background: rgb(1, 230, 251);
+    color: rgb(0, 0, 0);
+}
+
+.navbar {
+    color: rgb(0, 255, 247);
+    margin-right: 15rem;
+}
+
+
+.logo {
+    font-size: 200%;
+    color: rgb(0, 242, 255);
+    text-decoration: none;
+}
+
+.home-img img {
+    margin-top: 5%;
+    height: 85%;
+    width: 83%;
+    margin-left: 8%;
+    align-items: center;
+}
+
+#skateboarding {
+    color: rgb(0, 242, 255);
+    padding-top: 5%;
+    padding-left: 8%;
+    font-size: 300%;
+}
+
+#p1 {
+    padding-left: 8%;
+    font-size: 120%;
+}
+
+#button {
+    height: 3rem;
+    border-radius: 15%;
+    background: rgb(2, 251, 247);
+    color: rgb(8, 8, 8);
+    margin-left: 8%;
+    font-size: 120%;
+}
+
+#parts-skate {
+    color: rgb(2, 240, 248);
+    padding-top: 6%;
+    padding-left: 8%;
+    font-size: 300%;
+}
+
+#div-imgs {
+    display: flex;
+    margin-left: 8%;
+    width: fit-content;
+}
+
+#div1 img {
+    border-radius: 15%;
+    height: 60%;
+    width: 60%;
+}
+
+#div1 p {
+    text-align: justify;
+    width: 65%;
+}
+
+#div2 img {
+    border-radius: 15%;
+    height: 60%;
+    width: 60%;
+}
+
+#div2 p {
+    text-align: justify;
+    width: 65%;
+}
+
+#div3 img {
+    border-radius: 15%;
+    height: 60%;
+    width: 70%;
+
+}
+
+#div3 p {
+    text-align: justify;
+    width: 65%;
+}
+
+.story-section {
+    margin-left: 9%;
+}
+
+.story-title {
+    color: rgb(2, 240, 248);
+    font-size: 300%;
+    font-weight: bold;
+}
+
+.story-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.story-text {
+    margin-top: -5%;
+    font-size: 100%;
+}
+
+.story-img {
+    width: 55%;
+    height: max-content;
+    margin-right: 5%;
+    margin-top: -10%;
+}
+
+#legends {
+    background-color: rgb(3, 226, 251);
+    color: rgb(9, 9, 9);
+    padding: 1rem 2rem;
+    border-radius: 15%;
+    text-align: center;
+    width: fit-content;
+    font-size: 100%;
+}
+
+
+
+.decades-title {
+    color:rgb(0, 200, 255);
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.decades-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+.decade-box {
+    flex: 1 1 calc(50% - 1rem);
+    padding: 1rem;
+    border-radius: 15%;
+    box-sizing: border-box;
+}
+
+.decade-img {
+    width: 80%;
+    border-radius: 12%;
+}
+
+.decade-subtitle {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+    font-weight: bold;
+}
+
+.decade-text {
+    font-size: 1rem;
+    color: #03defb;
+    line-height: 1.6;
+}
+
+.decade-text a {
+    color: #03f8f4;
+    text-decoration: underline;
+}
+
+.site-footer {
+    padding: 2rem;
+    font-family: sans-serif;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1.5rem;
+}
+
+.footer-heading {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.footer-buttons button {
+    margin-left: 1rem;
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+.primary-btn {
+    background-color: rgb(3, 251, 255);
+    color: rgb(7, 7, 7);
+}
+
+.secondary-btn {
+    background-color: #00d0ffd1;
+    color: black;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+.footer-left {
+    flex: 1;
+    min-width: 200px;
+}
+
+.site-name {
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.social-icons i {
+    font-size: 1.2rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.footer-links {
+    display: flex;
+    flex: 2;
+    justify-content: space-between;
+    min-width: 300px;
+    gap: 2rem;
+}
+
+.footer-column h4 {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.footer-column a {
+    display: block;
+    color: rgb(2, 240, 248);
+    text-decoration: none;
+    margin-bottom: 0.3rem;
+    font-size: 0.95rem;
+}
+
+body img:hover {
+    transform: scale(1.05) rotate(1deg);
+    box-shadow: 0 0 20px rgb(0, 255, 255);
+    transition: all 0.3s ease;
+}
+
+.container{
+    border: 3px solid rgb(0, 255, 234);
+    padding: 2rem;
+    margin: 2rem 0;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 251, 255, 0.827);
+}

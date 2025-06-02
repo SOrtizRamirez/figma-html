@@ -1,0 +1,311 @@
+/* Body style */
+body {
+    margin-right: 10%;
+    margin-left: 10%;
+    font-family: "Inter", sans-serif;
+}
+
+/* Header style */
+header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1.5rem 2rem;
+    background: white;
+}
+
+/* Section background's style */
+section {
+    background: rgb(236, 236, 236);
+}
+
+/* Nav style */
+.navbar ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 25%;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    margin-right: 10%;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+    font-size: 120%;
+}
+
+.navbar {
+    margin-right: 15rem;
+}
+
+
+.logo {
+    font-size: 120%;
+    color: black;
+    text-decoration: none;
+}
+
+/* Button style */
+.login {
+    width: 130%;
+    height: 3rem;
+    border-radius: 15%;
+    background: black;
+    color: white;
+}
+
+/* Home img style */
+.home-img img {
+    margin-top: 5%;
+    height: 85%;
+    width: 83%;
+    margin-left: 8%;
+    align-items: center;
+}
+
+/* Title style */
+#skateboarding {
+    padding-top: 5%;
+    padding-left: 8%;
+    font-size: 300%;
+}
+
+#p1 {
+    padding-left: 8%;
+    font-size: 120%;
+}
+
+/* Another button's style */
+#button {
+    height: 3rem;
+    border-radius: 15%;
+    background: black;
+    color: white;
+    margin-left: 8%;
+    font-size: 120%;
+}
+
+/* Title's style */
+#parts-skate {
+    padding-top: 6%;
+    padding-left: 8%;
+    font-size: 300%;
+}
+
+
+/* Style of divs with images and paragraphs */
+#div-imgs {
+    display: flex;
+    margin-left: 8%;
+    width: fit-content;
+}
+
+#div1 img {
+    border-radius: 15%;
+    height: 60%;
+    width: 60%;
+}
+
+#div1 p {
+    text-align: justify;
+    width: 65%;
+}
+
+#div2 img {
+    border-radius: 15%;
+    height: 60%;
+    width: 60%;
+}
+
+#div2 p {
+    text-align: justify;
+    width: 65%;
+}
+
+#div3 img {
+    border-radius: 15%;
+    height: 60%;
+    width: 70%;
+
+}
+
+#div3 p {
+    text-align: justify;
+    width: 65%;
+}
+
+/* Another section's style with title, content, text, etc. */
+.story-section {
+    margin-left: 9%;
+}
+
+.story-title {
+    font-size: 300%;
+    font-weight: bold;
+}
+
+.story-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.story-text {
+    margin-top: -5%;
+    padding-bottom: 5%;
+    text-align: justify;
+    max-width: 55%;
+    font-size: 120%;
+}
+
+.story-img {
+    width: 55%;
+    height: max-content;
+    margin-right: 5%;
+    margin-top: -10%;
+}
+
+#legends {
+    background-color: black;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 15%;
+    text-align: center;
+    width: fit-content;
+    font-size: 100%;
+}
+
+
+
+.decades-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.decades-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+.decade-box {
+    flex: 1 1 calc(50% - 1rem);
+    padding: 1rem;
+    border-radius: 15%;
+    box-sizing: border-box;
+}
+
+.decade-img {
+    width: 80%;
+    border-radius: 12%;
+}
+
+.decade-subtitle {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+    font-weight: bold;
+}
+
+.decade-text {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.decade-text a {
+    color: #555;
+    text-decoration: underline;
+}
+
+/* Footer's style */
+.site-footer {
+    background: rgb(236, 236, 236);
+    padding: 2rem;
+    font-family: sans-serif;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1.5rem;
+}
+
+.footer-heading {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.footer-buttons button {
+    margin-left: 1rem;
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+.primary-btn {
+    background-color: black;
+    color: white;
+}
+
+.secondary-btn {
+    background-color: #e0e0e0;
+    color: black;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+.footer-left {
+    flex: 1;
+    min-width: 200px;
+}
+
+.site-name {
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.social-icons i {
+    font-size: 1.2rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.footer-links {
+    display: flex;
+    flex: 2;
+    justify-content: space-between;
+    min-width: 300px;
+    gap: 2rem;
+}
+
+.footer-column h4 {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.footer-column a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    margin-bottom: 0.3rem;
+    font-size: 0.95rem;
+}
